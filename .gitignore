@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Coverage and test/build outputs
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+sample_data/
+*.bson
+*.dump
+*.sqlite3
+
+# Assignment materials and local sample data
+sample_data/
+sample_seed.py
+PROBLEM_STATEMENT.docx
+app/main_backup.py
+
+# Assignment materials and local sample data
+sample_data/
+sample_seed.py
+PROBLEM_STATEMENT.docx
+app/main_backup.py
